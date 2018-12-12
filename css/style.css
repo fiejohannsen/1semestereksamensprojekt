@@ -359,7 +359,7 @@ footer {
      margin: 0 auto;
     }
 .footericons img {
-    width: 5%;
+    width: 15%;
 }
 
 /*
@@ -1128,7 +1128,9 @@ Large devices (laptops/desktops, 992px and up) */
         width: 40%;
         padding: 60px;
     }
-
+.footericons img {
+    width: 20%;
+}
     .opskriftsideheader {
         height: 40vh;
     }
