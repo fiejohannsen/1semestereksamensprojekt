@@ -470,13 +470,14 @@ STYLING TIL HEADER PÅ UNDERSIDEN "BROEDOPSKRIFTER"*/
 /*
 ___________________________________________________
 STYLING TIL HEADER PÅ UNDERSIDEN "BOLLEOPSKRIFT"*/
+
 .bolleopskriftheader {
     height: 5vh;
 }
 
 /*STYLING TIL MAIN PÅ UNDERSIDEN "BOLLEOPSKRIFT"*/
 .bolleopskriftmain {
-    background-color: #FFFFFF;
+    background-color: #EAE3DB;
     padding: 0px;
     margin: 0 auto;
     color: #674D46;
@@ -490,6 +491,9 @@ STYLING TIL HEADER PÅ UNDERSIDEN "BOLLEOPSKRIFT"*/
     line-height: 20px;
     font-size: 11px;
 }
+.bollegrid ol {
+    padding-left: 20px;
+}
 
 .bolleimg {
     width: 100%;
@@ -501,7 +505,7 @@ STYLING TIL HEADER PÅ UNDERSIDEN "BOLLEOPSKRIFT"*/
 }
 
 .ingredienser {
-    background-color: #EAE3DB;
+    background-color: #CEC6BD;
     padding: 10px;
 }
 
@@ -841,7 +845,7 @@ STYLING TIL HEADER PÅ UNDERSIDEN "BAGESKOLE"*/
         grid-column: 2 / -1;
         grid-row: 1 / 2;
         padding: 0;
-        border: 5px solid #EAE3DB;
+        border: 5px solid #CEC6BD;
     }
 
     .opskriftintro {
@@ -1158,12 +1162,12 @@ Large devices (laptops/desktops, 992px and up) */
     }
 
     .bolleopskriftmain {
-        margin: 50px 100px;
+        padding: 50px 100px;
         color: #674D46;
     }
 
     .bolleopskriftheader {
-        height: 4vh;
+        height: 0vh;
     }
 
     .bollegrid {
@@ -1176,7 +1180,7 @@ Large devices (laptops/desktops, 992px and up) */
         grid-column: 2 / 3;
         grid-row: 1 / 2;
         padding: 0;
-        border: 10px solid #EAE3DB;
+        border: 10px solid #CEC6BD;
     }
 
     .opskriftintro {
@@ -1358,6 +1362,4 @@ Large devices (laptops/desktops, 992px and up) */
         font-size: 13px;
         line-height: 22px;
     }
-
-
 }
