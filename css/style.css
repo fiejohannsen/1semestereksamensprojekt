@@ -481,7 +481,9 @@ STYLING TIL HEADER PÅ UNDERSIDEN "BOLLEOPSKRIFT"*/
     padding: 0px;
     margin: 0 auto;
     color: #674D46;
+    width: 100%;
 }
+
 
 /*STYLING TIL GRID PÅ UNDERSIDEN "BOLLEOPSKRIFT"*/
 .bollegrid {
@@ -828,7 +830,6 @@ STYLING TIL HEADER PÅ UNDERSIDEN "BAGESKOLE"*/
     }
 
     .bolleopskriftmain {
-        margin: 10px;
         color: #674D46;
     }
 
@@ -1162,7 +1163,7 @@ Large devices (laptops/desktops, 992px and up) */
     }
 
     .bolleopskriftmain {
-        padding: 50px 100px;
+        padding: 60px 80px;
         color: #674D46;
     }
 
